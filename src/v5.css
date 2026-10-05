@@ -282,7 +282,7 @@
  .nature-pill .sound-meter{display:none}.nature-panel{width:310px;bottom:61px}
  .nature-sources>div{grid-template-columns:1fr}.v5-app .v4-footer{margin:0 18px}
 }
-@media(max-width:360px){.v5-app .v4-lesson,.v5-app .v4-catalog,.v5-app .model-atlas,.v5-app .notebook-page,.v5-app .v4-reading-room{padding-left:15px;padding-right:15px}.v5-app h1{font-size:24px}.v5-app .v4-topbar{margin-left:8px;margin-right:8px;gap:3px;padding:4px}.v5-app .v4-icon{width:32px}.catalog-tools{flex-wrap:wrap}.catalog-search{flex-basis:100%}.catalog-tools select{max-width:none;width:100%}.v5-app .zone-bar>span{max-width:80px}}
+@media(max-width:360px){.v5-app .v4-lesson,.v5-app .v4-catalog,.v5-app .model-atlas,.v5-app .notebook-page,.v5-app .v4-reading-room{padding-left:15px;padding-right:15px}.v5-app h1{font-size:24px}.v5-app .v4-topbar{margin-left:8px;margin-right:8px;gap:3px;padding:4px}.v5-app .v4-icon{width:32px}.catalog-tools{flex-wrap:wrap}.catalog-search{flex-basis:100%}.catalog-tools select{max-width:none;width:100%}.v5-app .zone-panel-title>strong{max-width:190px}}
 @media(prefers-reduced-motion:reduce){.sound-meter b{animation:none}.course-card:hover{transform:none}}
 
 /* Night reading: a quiet blue starfield behind solid reading surfaces. */
