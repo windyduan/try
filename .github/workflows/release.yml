@@ -1,0 +1,82 @@
+name: Package Try release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - package.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  package-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
+        with:
+          node-version: '24'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check content and logic
+        run: npm run check
+
+      - name: Build website
+        run: npm run build
+
+      - name: Read release version
+        id: version
+        shell: bash
+        run: |
+          VERSION="$(node -p "require('./package.json').version")"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "tag=v$VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Package static website
+        shell: bash
+        run: |
+          VERSION="${{ steps.version.outputs.version }}"
+          (
+            cd dist
+            zip -qr "../try-${VERSION}-static.zip" .
+          )
+          sha256sum "try-${VERSION}-static.zip" > "try-${VERSION}-static.zip.sha256"
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.version.outputs.version }}
+          TAG: ${{ steps.version.outputs.tag }}
+        shell: bash
+        run: |
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Release $TAG already exists; skipping."
+            exit 0
+          fi
+
+          cat > release-notes.md <<EOF
+          ## Try $VERSION
+
+          **JUST TRY IT!**
+
+          Ready-to-host static build for Try $VERSION.
+
+          - Live: https://try.do123.eu.org/
+          - GitHub Pages: https://windyduan.github.io/try/
+          - Original course: https://www.rethink.fun/
+          - Course source: https://github.com/RethinkFun/DeepLearning
+
+          Download `try-$VERSION-static.zip`, unzip it, and upload its contents to any static web host.
+
+          This package contains static HTML/CSS/JavaScript files, not a native macOS app.
+          EOF
+
+          gh release create "$TAG"             "try-$VERSION-static.zip"             "try-$VERSION-static.zip.sha256"             --target "$GITHUB_SHA"             --title "Try $VERSION · JUST TRY IT!"             --notes-file release-notes.md             --latest
