@@ -7,6 +7,7 @@ on:
     branches: [main]
     paths:
       - package.json
+      - .github/workflows/release.yml
   workflow_dispatch:
 
 permissions:
@@ -60,11 +61,6 @@ jobs:
           TAG: ${{ steps.version.outputs.tag }}
         shell: bash
         run: |
-          if gh release view "$TAG" >/dev/null 2>&1; then
-            echo "Release $TAG already exists; skipping."
-            exit 0
-          fi
-
           cat > release-notes.md <<EOF
           ## Try $VERSION
 
@@ -77,9 +73,15 @@ jobs:
           - Original course: https://www.rethink.fun/
           - Course source: https://github.com/RethinkFun/DeepLearning
 
-          Download `try-$VERSION-static.zip`, unzip it, and upload its contents to any static web host.
+          Download try-$VERSION-static.zip, unzip it, and upload its contents to any static web host.
 
           This package contains static HTML/CSS/JavaScript files, not a native macOS app.
           EOF
 
-          gh release create "$TAG"             "try-$VERSION-static.zip"             "try-$VERSION-static.zip.sha256"             --target "$GITHUB_SHA"             --title "Try $VERSION · JUST TRY IT!"             --notes-file release-notes.md             --latest
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release edit "$TAG" --title "Try $VERSION · JUST TRY IT!" --notes-file release-notes.md
+            echo "Release $TAG already exists; refreshed its notes."
+            exit 0
+          fi
+
+          gh release create "$TAG" "try-$VERSION-static.zip" "try-$VERSION-static.zip.sha256" --target "$GITHUB_SHA" --title "Try $VERSION · JUST TRY IT!" --notes-file release-notes.md --latest
