@@ -15,10 +15,9 @@
 </p>
 
 <p align="center">
-  <a href="https://try.do123.eu.org/"><img alt="Live site" src="https://img.shields.io/badge/LIVE-try.do123.eu.org-ff746b?style=flat-square"></a>
-  <a href="https://windyduan.github.io/try/"><img alt="GitHub Pages" src="https://img.shields.io/badge/GitHub%20Pages-ONLINE-369af4?style=flat-square&logo=github"></a>
   <a href="https://github.com/windyduan/try/releases/latest"><img alt="Version" src="https://img.shields.io/badge/VERSION-5.2.1-ffcf32?style=flat-square"></a>
   <a href="https://github.com/windyduan/try"><img alt="Bilingual" src="https://img.shields.io/badge/BILINGUAL-中文%20%2F%20EN-43c491?style=flat-square"></a>
+  <img alt="Static site" src="https://img.shields.io/badge/STATIC-WEB-369af4?style=flat-square">
 </p>
 
 ---
@@ -35,14 +34,13 @@
 
 ## 🚀 直接体验
 
-| 入口 | 地址 |
-| --- | --- |
-| 🌈 自定义域名 | <https://try.do123.eu.org/> |
-| 🐙 GitHub Pages | <https://windyduan.github.io/try/> |
-| 💾 项目源码 | <https://github.com/windyduan/try> |
-| 📦 最新 Release | <https://github.com/windyduan/try/releases/latest> |
+如果只是想看看项目，直接打开网页即可，不需要安装任何东西。
 
-如果只是想看看项目，直接打开上面的网页即可，不需要安装任何东西。
+- **主站**：<https://try.do123.eu.org/>
+- **GitHub Pages 备用入口**：<https://windyduan.github.io/try/>
+- **下载静态包**：[GitHub Releases](https://github.com/windyduan/try/releases/latest)
+
+项目源码就是当前仓库；主站链接更适合放在 GitHub 仓库右侧 **About → Website**，README 这里只保留一次使用入口。
 
 ## 💡 这个项目想解决什么
 
@@ -272,9 +270,9 @@ RethinkFun 教程、第三方文章、字体、图标、音频、代码依赖等
 
 Its main learning references are the public [RethinkFun deep learning course](https://www.rethink.fun/) and [RethinkFun/DeepLearning](https://github.com/RethinkFun/DeepLearning). Try is not an official RethinkFun project and does not replace the original course; it reorganizes study material into an interactive reading interface with experiments, notes, progress tracking, model references and a knowledge map.
 
-**Live:** [try.do123.eu.org](https://try.do123.eu.org/) · [GitHub Pages](https://windyduan.github.io/try/)  
-**Latest release:** [GitHub Releases](https://github.com/windyduan/try/releases/latest)  
-**Current version:** 5.2.1
+**Current version:** 5.2.1  
+**Live site:** [try.do123.eu.org](https://try.do123.eu.org/)  
+**Fallback:** [GitHub Pages](https://windyduan.github.io/try/) · **Downloads:** [GitHub Releases](https://github.com/windyduan/try/releases/latest)
 
 The release asset `try-<version>-static.zip` is a platform-independent static website bundle. It can be downloaded and deployed from Windows, macOS or Linux. It is not a Windows executable or a native macOS application, so OS code signing is not required for this distribution format.
 
