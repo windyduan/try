@@ -1,5 +1,13 @@
 # Try 更新日志
 
+## 2026-10-05 · 5.2.1 · JUST TRY IT!
+
+- README 顶部加入网页 favicon、`JUST TRY IT!`、彩色状态徽章和更清晰的在线入口。
+- 将 RethinkFun 原教程与 `RethinkFun/DeepLearning` 公开代码引用放到 README 最前部。
+- 新增自动 Release 打包流程：版本更新后构建静态站点、生成 ZIP 与 SHA-256，并创建 GitHub Release。
+- README 增加静态发布说明与 macOS 分发说明，明确网页 ZIP 不属于原生 macOS App 分发。
+- 项目版本更新到 5.2.1。
+
 ## 2026-10-05 · 5.2.0
 
 - Zone 阅读移除顶部常驻横栏，改为自然声音控件上方的小型悬浮入口。
