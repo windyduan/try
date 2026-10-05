@@ -1,6 +1,8 @@
 name: Package Try release
 
 on:
+  pull_request:
+    branches: [main]
   push:
     branches: [main]
     paths:
@@ -51,6 +53,7 @@ jobs:
           sha256sum "try-${VERSION}-static.zip" > "try-${VERSION}-static.zip.sha256"
 
       - name: Create GitHub Release
+        if: github.event_name != 'pull_request'
         env:
           GH_TOKEN: ${{ github.token }}
           VERSION: ${{ steps.version.outputs.version }}
