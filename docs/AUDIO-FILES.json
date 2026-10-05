@@ -1,0 +1,32 @@
+[
+  {
+    "id": "rain",
+    "source": "https://cdn.freesound.org/previews/464/464334_1504845-hq.mp3",
+    "duration": "61.354558",
+    "size": "982665"
+  },
+  {
+    "id": "waves",
+    "source": "https://cdn.freesound.org/previews/48/48412_553671-hq.mp3",
+    "duration": "120.000000",
+    "size": "1920983"
+  },
+  {
+    "id": "birds",
+    "source": "https://cdn.freesound.org/previews/156/156826_1050391-hq.mp3",
+    "duration": "132.480794",
+    "size": "2120767"
+  },
+  {
+    "id": "water",
+    "source": "https://cdn.freesound.org/previews/333/333987_3562143-hq.mp3",
+    "duration": "156.000000",
+    "size": "2496931"
+  },
+  {
+    "id": "wind",
+    "source": "https://cdn.freesound.org/previews/217/217506_1661766-hq.mp3",
+    "duration": "212.318254",
+    "size": "3398051"
+  }
+]

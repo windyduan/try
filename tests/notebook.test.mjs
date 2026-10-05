@@ -1,0 +1,9 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {createNote,parseNotebook,notebookRecord,mergeNotes} from '../src/notes.js';
+const note=(id='a',body='中文、English、👩‍💻 🌈\n第一行\n第二行')=>({...createNote('transformer','2026-10-03T12:00:00Z',id),title:'Attention 的疑问',body,emoji:'👨‍👩‍👧‍👦',tags:[{label:'有点懂了 🌈',color:'yellow'}]});
+test('A notebook backup preserves bilingual text, emoji, tags and line breaks',()=>{const n=note();assert.deepEqual(parseNotebook(JSON.stringify(notebookRecord([n]))),[n]);});
+test('Invalid or oversized imports fail before any caller replaces its notebook',()=>{const original=[note()];for(const bad of ['{',JSON.stringify({version:1,notes:[]}),JSON.stringify(notebookRecord([{...note(),body:'x'.repeat(20000)}])).replace('try-notebook','other'),{type:'try-notebook',version:1,notes:[{...note(),tags:[{label:'a',color:'purple'}]}]},{type:'try-notebook',version:1,notes:[{...note(),body:'x'.repeat(20001)}]}])assert.throws(()=>parseNotebook(bad));assert.equal(original[0].body,note().body);});
+test('Unrecognized chapter ids and deleted notes survive backups for recovery',()=>{const n={...note(),topicId:'a-future-chapter',deletedAt:'2026-10-04T10:00:00Z'};assert.deepEqual(parseNotebook(notebookRecord([n])),[n]);});
+test('Merging backups keeps the newest edit and retains other notes',()=>{const old=note(),newer={...old,body:'修改后',updatedAt:'2026-10-04T12:00:00Z'};assert.deepEqual(mergeNotes([old,note('b')],[newer]),[newer,note('b')]);assert.deepEqual(mergeNotes([newer],[old]),[newer]);});
+test('Duplicate ids and invalid timestamps cannot silently discard notes',()=>{assert.throws(()=>parseNotebook({type:'try-notebook',version:1,notes:[note(),note()]}));assert.throws(()=>parseNotebook({type:'try-notebook',version:1,notes:[{...note(),updatedAt:'yesterday'}]}));});

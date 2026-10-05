@@ -1,0 +1,716 @@
+[
+  {
+    "path": "chapter1/什么是深度学习.html",
+    "title": "什么是深度学习",
+    "chapter": 1,
+    "url": "https://www.rethink.fun/chapter1/什么是深度学习.html"
+  },
+  {
+    "path": "chapter1/如何学习深度学习.html",
+    "title": "如何学习深度学习",
+    "chapter": 1,
+    "url": "https://www.rethink.fun/chapter1/如何学习深度学习.html"
+  },
+  {
+    "path": "chapter2/什么是向量.html",
+    "title": "什么是向量",
+    "chapter": 2,
+    "url": "https://www.rethink.fun/chapter2/什么是向量.html"
+  },
+  {
+    "path": "chapter2/向量的基.html",
+    "title": "向量的基",
+    "chapter": 2,
+    "url": "https://www.rethink.fun/chapter2/向量的基.html"
+  },
+  {
+    "path": "chapter2/线性变换和矩阵.html",
+    "title": "线性变换和矩阵",
+    "chapter": 2,
+    "url": "https://www.rethink.fun/chapter2/线性变换和矩阵.html"
+  },
+  {
+    "path": "chapter2/向量的点乘.html",
+    "title": "向量的点乘",
+    "chapter": 2,
+    "url": "https://www.rethink.fun/chapter2/向量的点乘.html"
+  },
+  {
+    "path": "chapter2/向量的叉乘.html",
+    "title": "向量的叉乘",
+    "chapter": 2,
+    "url": "https://www.rethink.fun/chapter2/向量的叉乘.html"
+  },
+  {
+    "path": "chapter3/函数的极限.html",
+    "title": "函数的极限",
+    "chapter": 3,
+    "url": "https://www.rethink.fun/chapter3/函数的极限.html"
+  },
+  {
+    "path": "chapter3/导数的定义.html",
+    "title": "导数的定义",
+    "chapter": 3,
+    "url": "https://www.rethink.fun/chapter3/导数的定义.html"
+  },
+  {
+    "path": "chapter3/常用求导公式.html",
+    "title": "常用求导公式",
+    "chapter": 3,
+    "url": "https://www.rethink.fun/chapter3/常用求导公式.html"
+  },
+  {
+    "path": "chapter3/导数运算法则.html",
+    "title": "导数运算法则",
+    "chapter": 3,
+    "url": "https://www.rethink.fun/chapter3/导数运算法则.html"
+  },
+  {
+    "path": "chapter3/一元函数微分.html",
+    "title": "一元函数微分",
+    "chapter": 3,
+    "url": "https://www.rethink.fun/chapter3/一元函数微分.html"
+  },
+  {
+    "path": "chapter3/偏导数.html",
+    "title": "偏导数",
+    "chapter": 3,
+    "url": "https://www.rethink.fun/chapter3/偏导数.html"
+  },
+  {
+    "path": "chapter3/全微分.html",
+    "title": "全微分",
+    "chapter": 3,
+    "url": "https://www.rethink.fun/chapter3/全微分.html"
+  },
+  {
+    "path": "chapter3/方向导数与梯度.html",
+    "title": "方向导数与梯度",
+    "chapter": 3,
+    "url": "https://www.rethink.fun/chapter3/方向导数与梯度.html"
+  },
+  {
+    "path": "chapter3/定积分.html",
+    "title": "定积分",
+    "chapter": 3,
+    "url": "https://www.rethink.fun/chapter3/定积分.html"
+  },
+  {
+    "path": "chapter4/概率论里的基本概念.html",
+    "title": "概率论里的基本概念",
+    "chapter": 4,
+    "url": "https://www.rethink.fun/chapter4/概率论里的基本概念.html"
+  },
+  {
+    "path": "chapter4/概率里的基本运算.html",
+    "title": "概率里的基本运算",
+    "chapter": 4,
+    "url": "https://www.rethink.fun/chapter4/概率里的基本运算.html"
+  },
+  {
+    "path": "chapter4/随机变量及其分布.html",
+    "title": "随机变量及其分布",
+    "chapter": 4,
+    "url": "https://www.rethink.fun/chapter4/随机变量及其分布.html"
+  },
+  {
+    "path": "chapter4/数学期望和方差.html",
+    "title": "数学期望和方差",
+    "chapter": 4,
+    "url": "https://www.rethink.fun/chapter4/数学期望和方差.html"
+  },
+  {
+    "path": "chapter4/大数定律.html",
+    "title": "大数定律",
+    "chapter": 4,
+    "url": "https://www.rethink.fun/chapter4/大数定律.html"
+  },
+  {
+    "path": "chapter4/条件概率与全概率.html",
+    "title": "条件概率与全概率",
+    "chapter": 4,
+    "url": "https://www.rethink.fun/chapter4/条件概率与全概率.html"
+  },
+  {
+    "path": "chapter4/中心极限定理和正态分布.html",
+    "title": "中心极限定理和正态分布",
+    "chapter": 4,
+    "url": "https://www.rethink.fun/chapter4/中心极限定理和正态分布.html"
+  },
+  {
+    "path": "chapter4/极大似然估计.html",
+    "title": "极大似然估计",
+    "chapter": 4,
+    "url": "https://www.rethink.fun/chapter4/极大似然估计.html"
+  },
+  {
+    "path": "chapter5/一元线性回归.html",
+    "title": "一元线性回归",
+    "chapter": 5,
+    "url": "https://www.rethink.fun/chapter5/一元线性回归.html"
+  },
+  {
+    "path": "chapter5/给线性回归加上偏置.html",
+    "title": "给线性回归加上偏置",
+    "chapter": 5,
+    "url": "https://www.rethink.fun/chapter5/给线性回归加上偏置.html"
+  },
+  {
+    "path": "chapter5/梯度下降算法.html",
+    "title": "梯度下降算法",
+    "chapter": 5,
+    "url": "https://www.rethink.fun/chapter5/梯度下降算法.html"
+  },
+  {
+    "path": "chapter5/多元线性回归.html",
+    "title": "多元线性回归",
+    "chapter": 5,
+    "url": "https://www.rethink.fun/chapter5/多元线性回归.html"
+  },
+  {
+    "path": "chapter5/动手实现多元线性回归.html",
+    "title": "动手实现多元线性回归",
+    "chapter": 5,
+    "url": "https://www.rethink.fun/chapter5/动手实现多元线性回归.html"
+  },
+  {
+    "path": "chapter5/线性回归只能拟合直线吗.html",
+    "title": "线性回归只能拟合直线吗",
+    "chapter": 5,
+    "url": "https://www.rethink.fun/chapter5/线性回归只能拟合直线吗.html"
+  },
+  {
+    "path": "chapter6/PyTorch简介.html",
+    "title": "PyTorch简介",
+    "chapter": 6,
+    "url": "https://www.rethink.fun/chapter6/PyTorch简介.html"
+  },
+  {
+    "path": "chapter6/CPU环境下的PyTorch安装.html",
+    "title": "CPU环境下的PyTorch安装",
+    "chapter": 6,
+    "url": "https://www.rethink.fun/chapter6/CPU环境下的PyTorch安装.html"
+  },
+  {
+    "path": "chapter6/GPU环境下的PyTorch安装.html",
+    "title": "GPU环境下的PyTorch安装",
+    "chapter": 6,
+    "url": "https://www.rethink.fun/chapter6/GPU环境下的PyTorch安装.html"
+  },
+  {
+    "path": "chapter6/Tensor.html",
+    "title": "Tensor",
+    "chapter": 6,
+    "url": "https://www.rethink.fun/chapter6/Tensor.html"
+  },
+  {
+    "path": "chapter6/计算图与自动求梯度.html",
+    "title": "计算图与自动求梯度",
+    "chapter": 6,
+    "url": "https://www.rethink.fun/chapter6/计算图与自动求梯度.html"
+  },
+  {
+    "path": "chapter6/用PyTorch实现线性回归.html",
+    "title": "用PyTorch实现线性回归",
+    "chapter": 6,
+    "url": "https://www.rethink.fun/chapter6/用PyTorch实现线性回归.html"
+  },
+  {
+    "path": "chapter6/优美的loss曲线.html",
+    "title": "优美的loss曲线",
+    "chapter": 6,
+    "url": "https://www.rethink.fun/chapter6/优美的loss曲线.html"
+  },
+  {
+    "path": "chapter6/Normalization.html",
+    "title": "Normalization",
+    "chapter": 6,
+    "url": "https://www.rethink.fun/chapter6/Normalization.html"
+  },
+  {
+    "path": "chapter7/一元逻辑回归.html",
+    "title": "一元逻辑回归",
+    "chapter": 7,
+    "url": "https://www.rethink.fun/chapter7/一元逻辑回归.html"
+  },
+  {
+    "path": "chapter7/逻辑回归的损失函数.html",
+    "title": "逻辑回归的损失函数",
+    "chapter": 7,
+    "url": "https://www.rethink.fun/chapter7/逻辑回归的损失函数.html"
+  },
+  {
+    "path": "chapter7/多元逻辑回归.html",
+    "title": "多元逻辑回归",
+    "chapter": 7,
+    "url": "https://www.rethink.fun/chapter7/多元逻辑回归.html"
+  },
+  {
+    "path": "chapter7/数据集的划分.html",
+    "title": "数据集的划分",
+    "chapter": 7,
+    "url": "https://www.rethink.fun/chapter7/数据集的划分.html"
+  },
+  {
+    "path": "chapter7/欠拟合和过拟合.html",
+    "title": "欠拟合和过拟合",
+    "chapter": 7,
+    "url": "https://www.rethink.fun/chapter7/欠拟合和过拟合.html"
+  },
+  {
+    "path": "chapter7/二分类模型的评价指标.html",
+    "title": "二分类模型的评价指标",
+    "chapter": 7,
+    "url": "https://www.rethink.fun/chapter7/二分类模型的评价指标.html"
+  },
+  {
+    "path": "chapter7/梯度下降算法的改进.html",
+    "title": "梯度下降算法的改进",
+    "chapter": 7,
+    "url": "https://www.rethink.fun/chapter7/梯度下降算法的改进.html"
+  },
+  {
+    "path": "chapter7/泰坦尼克号生存预测.html",
+    "title": "泰坦尼克号生存预测",
+    "chapter": 7,
+    "url": "https://www.rethink.fun/chapter7/泰坦尼克号生存预测.html"
+  },
+  {
+    "path": "chapter7/PyTorch里的Dataset和DataLoader.html",
+    "title": "PyTorch里的Dataset和DataLoader",
+    "chapter": 7,
+    "url": "https://www.rethink.fun/chapter7/PyTorch里的Dataset和DataLoader.html"
+  },
+  {
+    "path": "chapter7/利用PyTorch定义逻辑回归模型.html",
+    "title": "利用PyTorch定义逻辑回归模型",
+    "chapter": 7,
+    "url": "https://www.rethink.fun/chapter7/利用PyTorch定义逻辑回归模型.html"
+  },
+  {
+    "path": "chapter7/用逻辑回归对Titanic数据进行训练.html",
+    "title": "用逻辑回归对Titanic数据进行训练",
+    "chapter": 7,
+    "url": "https://www.rethink.fun/chapter7/用逻辑回归对Titanic数据进行训练.html"
+  },
+  {
+    "path": "chapter8/从逻辑回归到神经网络.html",
+    "title": "从逻辑回归到神经网络",
+    "chapter": 8,
+    "url": "https://www.rethink.fun/chapter8/从逻辑回归到神经网络.html"
+  },
+  {
+    "path": "chapter8/大脑与神经网络.html",
+    "title": "大脑与神经网络",
+    "chapter": 8,
+    "url": "https://www.rethink.fun/chapter8/大脑与神经网络.html"
+  },
+  {
+    "path": "chapter8/神经网络与矩阵运算.html",
+    "title": "神经网络与矩阵运算",
+    "chapter": 8,
+    "url": "https://www.rethink.fun/chapter8/神经网络与矩阵运算.html"
+  },
+  {
+    "path": "chapter8/激活函数.html",
+    "title": "激活函数",
+    "chapter": 8,
+    "url": "https://www.rethink.fun/chapter8/激活函数.html"
+  },
+  {
+    "path": "chapter8/神经网络的多分类.html",
+    "title": "神经网络的多分类",
+    "chapter": 8,
+    "url": "https://www.rethink.fun/chapter8/神经网络的多分类.html"
+  },
+  {
+    "path": "chapter8/多分类神经网络的反向传播.html",
+    "title": "多分类神经网络的反向传播",
+    "chapter": 8,
+    "url": "https://www.rethink.fun/chapter8/多分类神经网络的反向传播.html"
+  },
+  {
+    "path": "chapter8/梯度消失和梯度爆炸.html",
+    "title": "梯度消失和梯度爆炸",
+    "chapter": 8,
+    "url": "https://www.rethink.fun/chapter8/梯度消失和梯度爆炸.html"
+  },
+  {
+    "path": "chapter8/手动实现多分类神经网络.html",
+    "title": "手动实现多分类神经网络",
+    "chapter": 8,
+    "url": "https://www.rethink.fun/chapter8/手动实现多分类神经网络.html"
+  },
+  {
+    "path": "chapter8/用PyTorch实现多分类神经网络.html",
+    "title": "用PyTorch实现多分类神经网络",
+    "chapter": 8,
+    "url": "https://www.rethink.fun/chapter8/用PyTorch实现多分类神经网络.html"
+  },
+  {
+    "path": "chapter8/为什么神经网络可以拟合任意函数.html",
+    "title": "为什么神经网络可以拟合任意函数",
+    "chapter": 8,
+    "url": "https://www.rethink.fun/chapter8/为什么神经网络可以拟合任意函数.html"
+  },
+  {
+    "path": "chapter9/L1和L2正则化.html",
+    "title": "L1和L2正则化",
+    "chapter": 9,
+    "url": "https://www.rethink.fun/chapter9/L1和L2正则化.html"
+  },
+  {
+    "path": "chapter9/指数加权平均.html",
+    "title": "指数加权平均",
+    "chapter": 9,
+    "url": "https://www.rethink.fun/chapter9/指数加权平均.html"
+  },
+  {
+    "path": "chapter9/动量梯度下降.html",
+    "title": "动量梯度下降",
+    "chapter": 9,
+    "url": "https://www.rethink.fun/chapter9/动量梯度下降.html"
+  },
+  {
+    "path": "chapter9/RMSProp优化器.html",
+    "title": "RMSProp优化器",
+    "chapter": 9,
+    "url": "https://www.rethink.fun/chapter9/RMSProp优化器.html"
+  },
+  {
+    "path": "chapter9/Adam优化器.html",
+    "title": "Adam优化器",
+    "chapter": 9,
+    "url": "https://www.rethink.fun/chapter9/Adam优化器.html"
+  },
+  {
+    "path": "chapter9/权重衰减.html",
+    "title": "权重衰减",
+    "chapter": 9,
+    "url": "https://www.rethink.fun/chapter9/权重衰减.html"
+  },
+  {
+    "path": "chapter9/Dropout.html",
+    "title": "Dropout",
+    "chapter": 9,
+    "url": "https://www.rethink.fun/chapter9/Dropout.html"
+  },
+  {
+    "path": "chapter9/批量归一化.html",
+    "title": "批量归一化",
+    "chapter": 9,
+    "url": "https://www.rethink.fun/chapter9/批量归一化.html"
+  },
+  {
+    "path": "chapter10/视觉问题的特点.html",
+    "title": "视觉问题的特点",
+    "chapter": 10,
+    "url": "https://www.rethink.fun/chapter10/视觉问题的特点.html"
+  },
+  {
+    "path": "chapter10/卷积操作.html",
+    "title": "卷积操作",
+    "chapter": 10,
+    "url": "https://www.rethink.fun/chapter10/卷积操作.html"
+  },
+  {
+    "path": "chapter10/进阶的卷积操作.html",
+    "title": "进阶的卷积操作",
+    "chapter": 10,
+    "url": "https://www.rethink.fun/chapter10/进阶的卷积操作.html"
+  },
+  {
+    "path": "chapter10/池化层.html",
+    "title": "池化层",
+    "chapter": 10,
+    "url": "https://www.rethink.fun/chapter10/池化层.html"
+  },
+  {
+    "path": "chapter10/一个完整的卷积神经网络.html",
+    "title": "一个完整的卷积神经网络",
+    "chapter": 10,
+    "url": "https://www.rethink.fun/chapter10/一个完整的卷积神经网络.html"
+  },
+  {
+    "path": "chapter10/1乘1卷积和全局平均池化层.html",
+    "title": "1乘1卷积和全局平均池化层",
+    "chapter": 10,
+    "url": "https://www.rethink.fun/chapter10/1乘1卷积和全局平均池化层.html"
+  },
+  {
+    "path": "chapter10/用PyTorch实现卷积神经网络.html",
+    "title": "用PyTorch实现卷积神经网络",
+    "chapter": 10,
+    "url": "https://www.rethink.fun/chapter10/用PyTorch实现卷积神经网络.html"
+  },
+  {
+    "path": "chapter10/图像增强.html",
+    "title": "图像增强",
+    "chapter": 10,
+    "url": "https://www.rethink.fun/chapter10/图像增强.html"
+  },
+  {
+    "path": "chapter11/LeNet.html",
+    "title": "LeNet",
+    "chapter": 11,
+    "url": "https://www.rethink.fun/chapter11/LeNet.html"
+  },
+  {
+    "path": "chapter11/AlexNet.html",
+    "title": "AlexNet",
+    "chapter": 11,
+    "url": "https://www.rethink.fun/chapter11/AlexNet.html"
+  },
+  {
+    "path": "chapter11/GoogLeNet.html",
+    "title": "GoogLeNet",
+    "chapter": 11,
+    "url": "https://www.rethink.fun/chapter11/GoogLeNet.html"
+  },
+  {
+    "path": "chapter11/VGGNet.html",
+    "title": "VGGNet",
+    "chapter": 11,
+    "url": "https://www.rethink.fun/chapter11/VGGNet.html"
+  },
+  {
+    "path": "chapter11/ResNet原理.html",
+    "title": "ResNet原理",
+    "chapter": 11,
+    "url": "https://www.rethink.fun/chapter11/ResNet原理.html"
+  },
+  {
+    "path": "chapter11/ResNet实现.html",
+    "title": "ResNet实现",
+    "chapter": 11,
+    "url": "https://www.rethink.fun/chapter11/ResNet实现.html"
+  },
+  {
+    "path": "chapter11/迁移学习.html",
+    "title": "迁移学习",
+    "chapter": 11,
+    "url": "https://www.rethink.fun/chapter11/迁移学习.html"
+  },
+  {
+    "path": "chapter11/目标检测.html",
+    "title": "目标检测",
+    "chapter": 11,
+    "url": "https://www.rethink.fun/chapter11/目标检测.html"
+  },
+  {
+    "path": "chapter11/语义分割.html",
+    "title": "语义分割",
+    "chapter": 11,
+    "url": "https://www.rethink.fun/chapter11/语义分割.html"
+  },
+  {
+    "path": "chapter11/更多应用.html",
+    "title": "更多应用",
+    "chapter": 11,
+    "url": "https://www.rethink.fun/chapter11/更多应用.html"
+  },
+  {
+    "path": "chapter12/自然语言处理的进化之路.html",
+    "title": "自然语言处理的进化之路",
+    "chapter": 12,
+    "url": "https://www.rethink.fun/chapter12/自然语言处理的进化之路.html"
+  },
+  {
+    "path": "chapter12/NLP常见任务.html",
+    "title": "NLP常见任务",
+    "chapter": 12,
+    "url": "https://www.rethink.fun/chapter12/NLP常见任务.html"
+  },
+  {
+    "path": "chapter12/词典生成.html",
+    "title": "词典生成",
+    "chapter": 12,
+    "url": "https://www.rethink.fun/chapter12/词典生成.html"
+  },
+  {
+    "path": "chapter12/Token编码.html",
+    "title": "Token编码",
+    "chapter": 12,
+    "url": "https://www.rethink.fun/chapter12/Token编码.html"
+  },
+  {
+    "path": "chapter12/语言模型采样.html",
+    "title": "语言模型采样",
+    "chapter": 12,
+    "url": "https://www.rethink.fun/chapter12/语言模型采样.html"
+  },
+  {
+    "path": "chapter13/RNN.html",
+    "title": "RNN",
+    "chapter": 13,
+    "url": "https://www.rethink.fun/chapter13/RNN.html"
+  },
+  {
+    "path": "chapter13/RNN的不同类型.html",
+    "title": "RNN的不同类型",
+    "chapter": 13,
+    "url": "https://www.rethink.fun/chapter13/RNN的不同类型.html"
+  },
+  {
+    "path": "chapter13/LSTM.html",
+    "title": "LSTM",
+    "chapter": 13,
+    "url": "https://www.rethink.fun/chapter13/LSTM.html"
+  },
+  {
+    "path": "chapter13/GRU.html",
+    "title": "GRU",
+    "chapter": 13,
+    "url": "https://www.rethink.fun/chapter13/GRU.html"
+  },
+  {
+    "path": "chapter13/双向循环神经网络.html",
+    "title": "双向循环神经网络",
+    "chapter": 13,
+    "url": "https://www.rethink.fun/chapter13/双向循环神经网络.html"
+  },
+  {
+    "path": "chapter13/深度循环神经网络.html",
+    "title": "深度循环神经网络",
+    "chapter": 13,
+    "url": "https://www.rethink.fun/chapter13/深度循环神经网络.html"
+  },
+  {
+    "path": "chapter13/注意力机制.html",
+    "title": "注意力机制",
+    "chapter": 13,
+    "url": "https://www.rethink.fun/chapter13/注意力机制.html"
+  },
+  {
+    "path": "chapter14/数据准备.html",
+    "title": "数据准备",
+    "chapter": 14,
+    "url": "https://www.rethink.fun/chapter14/数据准备.html"
+  },
+  {
+    "path": "chapter14/BLEU评价指标.html",
+    "title": "BLEU评价指标",
+    "chapter": 14,
+    "url": "https://www.rethink.fun/chapter14/BLEU评价指标.html"
+  },
+  {
+    "path": "chapter14/模型定义.html",
+    "title": "模型定义",
+    "chapter": 14,
+    "url": "https://www.rethink.fun/chapter14/模型定义.html"
+  },
+  {
+    "path": "chapter14/模型评估.html",
+    "title": "模型评估",
+    "chapter": 14,
+    "url": "https://www.rethink.fun/chapter14/模型评估.html"
+  },
+  {
+    "path": "chapter15/动机与影响.html",
+    "title": "动机与影响",
+    "chapter": 15,
+    "url": "https://www.rethink.fun/chapter15/动机与影响.html"
+  },
+  {
+    "path": "chapter15/注意力机制.html",
+    "title": "注意力机制",
+    "chapter": 15,
+    "url": "https://www.rethink.fun/chapter15/注意力机制.html"
+  },
+  {
+    "path": "chapter15/层归一化.html",
+    "title": "层归一化",
+    "chapter": 15,
+    "url": "https://www.rethink.fun/chapter15/层归一化.html"
+  },
+  {
+    "path": "chapter15/位置编码.html",
+    "title": "位置编码",
+    "chapter": 15,
+    "url": "https://www.rethink.fun/chapter15/位置编码.html"
+  },
+  {
+    "path": "chapter15/把这一切组装起来.html",
+    "title": "把这一切组装起来",
+    "chapter": 15,
+    "url": "https://www.rethink.fun/chapter15/把这一切组装起来.html"
+  },
+  {
+    "path": "chapter15/利用Transformer实现翻译模型.html",
+    "title": "利用Transformer实现翻译模型",
+    "chapter": 15,
+    "url": "https://www.rethink.fun/chapter15/利用Transformer实现翻译模型.html"
+  },
+  {
+    "path": "chapter16/GPT1.html",
+    "title": "GPT1",
+    "chapter": 16,
+    "url": "https://www.rethink.fun/chapter16/GPT1.html"
+  },
+  {
+    "path": "chapter16/BERT.html",
+    "title": "BERT",
+    "chapter": 16,
+    "url": "https://www.rethink.fun/chapter16/BERT.html"
+  },
+  {
+    "path": "chapter16/GPT2.html",
+    "title": "GPT2",
+    "chapter": 16,
+    "url": "https://www.rethink.fun/chapter16/GPT2.html"
+  },
+  {
+    "path": "chapter16/GPT3和GPT4.html",
+    "title": "GPT3和GPT4",
+    "chapter": 16,
+    "url": "https://www.rethink.fun/chapter16/GPT3和GPT4.html"
+  },
+  {
+    "path": "chapter17/Llama1.html",
+    "title": "Llama1",
+    "chapter": 17,
+    "url": "https://www.rethink.fun/chapter17/Llama1.html"
+  },
+  {
+    "path": "chapter17/旋转位置编码.html",
+    "title": "旋转位置编码",
+    "chapter": 17,
+    "url": "https://www.rethink.fun/chapter17/旋转位置编码.html"
+  },
+  {
+    "path": "chapter17/Llama2.html",
+    "title": "Llama2",
+    "chapter": 17,
+    "url": "https://www.rethink.fun/chapter17/Llama2.html"
+  },
+  {
+    "path": "chapter17/Llama3.html",
+    "title": "Llama3",
+    "chapter": 17,
+    "url": "https://www.rethink.fun/chapter17/Llama3.html"
+  },
+  {
+    "path": "chapter18/MOE.html",
+    "title": "MOE",
+    "chapter": 18,
+    "url": "https://www.rethink.fun/chapter18/MOE.html"
+  },
+  {
+    "path": "chapter18/DeepSeekMOE.html",
+    "title": "DeepSeekMOE",
+    "chapter": 18,
+    "url": "https://www.rethink.fun/chapter18/DeepSeekMOE.html"
+  },
+  {
+    "path": "chapter18/DeepSeekV2.html",
+    "title": "DeepSeekV2",
+    "chapter": 18,
+    "url": "https://www.rethink.fun/chapter18/DeepSeekV2.html"
+  },
+  {
+    "path": "chapter18/DeepSeekV3.html",
+    "title": "DeepSeekV3",
+    "chapter": 18,
+    "url": "https://www.rethink.fun/chapter18/DeepSeekV3.html"
+  }
+]

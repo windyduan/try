@@ -1,0 +1,33 @@
+{
+  "name": "try",
+  "version": "5.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "check": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@remotion/player": "4.0.530",
+    "remotion": "4.0.530",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "lucide-react": "^0.468.0",
+    "katex": "^0.16.25"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^7.1.0"
+  },
+  "description": "A bilingual interactive AI learning reader with notes, model references and a knowledge sphere.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/windyduan/try.git"
+  },
+  "homepage": "https://windyduan.github.io/try/",
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
