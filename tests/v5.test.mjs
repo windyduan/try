@@ -1,5 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
 import {models,selectModelReleases} from '../src/model-history.js';
 import {parseProgress,progressRecord} from '../src/graph-math.js';
 import {readableTopic,shortNames} from '../src/reader-editorial.js';
@@ -34,4 +35,12 @@ test('Editorial changes preserve computation, IDs, links and source objects',()=
  const source={id:'context',name:'old',formula:'x+y',experiment:'calculation',related:['rag'],sources:[{url:'https://example.org'}],boundary:'old'};
  const result=readableTopic(source,'en');assert.equal(result.name,shortNames.context.en);assert.equal(result.id,source.id);assert.equal(result.formula,source.formula);assert.equal(result.experiment,source.experiment);assert.equal(result.related,source.related);assert.equal(result.sources,source.sources);
  const unchanged=readableTopic({...source,id:'other'},'zh');assert.equal(unchanged.name,'old');
+});
+
+test('Zone reading uses compact floating controls instead of a top bar',()=>{
+ const app=readFileSync(new URL('../src/V5App.jsx',import.meta.url),'utf8');
+ const css=readFileSync(new URL('../src/v5.css',import.meta.url),'utf8');
+ assert.match(app,/className="zone-dock"/);assert.match(app,/className="zone-panel"/);assert.match(app,/className="zone-pill"/);
+ assert.doesNotMatch(app,/className="zone-bar"/);assert.doesNotMatch(css,/\.zone-bar/);
+ assert.match(app,/aria-expanded=\{zonePanel\}/);assert.match(app,/setNotesOpen\(true\)/);assert.match(app,/setZone\(false\)/);
 });
