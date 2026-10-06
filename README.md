@@ -20,64 +20,83 @@
   <img alt="Static site" src="https://img.shields.io/badge/STATIC-WEB-369af4?style=flat-square">
 </p>
 
-<p align="center">
-  <a href="https://windyduan.github.io/">个人主页 / Homepage</a>
-  ·
-  <a href="https://github.com/windyduan">GitHub Profile</a>
-</p>
-
 ---
 
-# Try
+# Try 是什么？
 
-**Try 是我用来整理深度学习资料、做交互实验和记学习笔记的双语阅读器。**
+**Try 是一个面向学习者的双语互动式深度学习阅读器。**
 
-主要学习来源是 [RethinkFun 深度学习教程](https://www.rethink.fun/) 和公开代码仓库 [RethinkFun/DeepLearning](https://github.com/RethinkFun/DeepLearning)。我保留了原文入口，再把阅读、交互实验、章节关系、个人笔记、模型资料和学习进度整理到同一个网页里。
+它以 [RethinkFun 深度学习教程](https://www.rethink.fun/) 和公开代码仓库 [RethinkFun/DeepLearning](https://github.com/RethinkFun/DeepLearning) 为主要学习来源，在保留原文、代码和补充资料入口的基础上，把几件经常分散在不同地方的事放到同一个网页里：
 
-它不是 RethinkFun 官方站点，也不想替代原教程。更像是我在学习过程中慢慢搭出来的一层个人界面：需要完整推导、原始代码或上下文时，还是回到原文继续看。
+- 阅读概念；
+- 做小型交互实验；
+- 看章节之间的关系；
+- 记自己的理解和问题；
+- 标记学习进度；
+- 回头浏览模型资料和知识网络。
+
+它**不是 RethinkFun 官方站点，也不替代原教程**。遇到完整推导、原始代码或需要更多上下文的地方，仍然建议回到原始资料继续看。
 
 当前版本：**5.2.1**
 
-## 🚀 直接体验
+## 🚀 第一次来？先这样开始
 
-如果只是想看看项目，直接打开网页即可，不需要安装任何东西。
+如果你只是想学和体验，**不需要安装任何东西**。
 
-- **主站**：<https://try.do123.eu.org/>
-- **GitHub Pages 备用入口**：<https://windyduan.github.io/try/>
-- **下载静态包**：[GitHub Releases](https://github.com/windyduan/try/releases/latest)
+1. 打开主站：<https://try.do123.eu.org/>
+2. 从基础章节开始读，不需要一次看完。
+3. 遇到可交互内容时，直接改参数、点按钮、观察结果。
+4. 有自己的理解或疑问，就记进章节笔记。
+5. 觉得这一节已经学过了，再手动标记“已学”。
+6. 学到后面可以去知识球看看，哪些节点已经被自己点亮。
 
-如果想继续看我做的其他公开项目、开源贡献或之后的论文，可以从 [个人主页](https://windyduan.github.io/) 继续逛。
+备用入口：
 
-## 💡 为什么做它
+- **GitHub Pages**：<https://windyduan.github.io/try/>
+- **静态包下载**：[GitHub Releases](https://github.com/windyduan/try/releases/latest)
 
-我不太喜欢“看完一章 → 关掉网页 → 下次又从头找”的学习方式，所以把自己经常需要的几件事放到一起：
+> 如果你只是学习，建议先用在线版本。静态包、本地开发和部署说明都放在 README 后面，不需要一开始就管。
 
-- 看完一个概念后，知道下一步还能去哪里；
-- 遇到公式或模型结构时，最好马上能动手试一下；
-- 不同章节之间的关系能看得见；
-- 自己的理解、问题和进度有地方留下来；
-- 学到后面时，还能回头看到一张慢慢被点亮的知识地图。
+## 👀 你会在里面看到什么
 
-所以 Try 最后更像一本**可以操作、可以记笔记、也可以反复翻回来的个人学习书**，而不是教程镜像。
+| 内容 | 用来做什么 |
+| --- | --- |
+| 🌏 双语阅读 | 中文为主，同时保留必要英文术语，可切换中文 / English |
+| 📚 44 个学习节点 | 18 章基础内容、6 个应用主题和 20 篇实践笔记 |
+| 🧪 交互实验 | 在浏览器里改参数、看计算与流程变化 |
+| 🧭 章节关系 | 用思维导图和章节连接理解知识结构 |
+| 🎯 Zone 阅读 | 把干扰收起来，专注读当前章节 |
+| 📝 个人笔记 | 记录理解、问题和标签，支持备份、导入导出与回收站 |
+| ✅ 学习进度 | 自己确认“已学”，也可以随时取消 |
+| 🧠 模型图鉴 | 整理模型系列、发布时间、访问方式、许可与资料入口 |
+| 🌐 知识球 | 旋转、缩放、打开节点，并显示自己的点亮状态 |
+| 🎧 自然环境音 | 雨、海浪、鸟鸣、流水和风，可随机播放和调节音量 |
 
-## ✨ 主要内容
+## 🧭 推荐的学习方式
 
-- 🌏 **双语阅读**：中文为主，保留必要英文术语，可随时切换中文 / English。
-- 📚 **44 个学习节点**：由 18 章基础内容、6 个应用主题和 20 篇实践笔记组成。
-- 🧪 **交互实验**：在浏览器里操作参数、观察计算与流程，而不只是看文字。
-- 🧭 **章节关系与思维导图**：帮助理解概念之间的连接。
-- 🎯 **Zone 阅读**：专注阅读模式；字号、章节笔记和退出操作收进右下角的小型悬浮卡片。
-- 📝 **个人笔记**：支持标签、备份、导入导出和回收站。
-- ✅ **学习进度**：自己确认“已学”，可以随时取消，并同步点亮知识网络。
-- 🧠 **模型图鉴**：整理模型系列、发布时间、访问方式、许可与一手资料入口。
-- 🌐 **知识球**：可旋转、缩放、打开节点，并显示自己的学习点亮状态。
-- 🎧 **自然环境音**：雨、海浪、鸟鸣、流水和风，可随机播放、切换和调节音量。
+Try 不要求你按固定顺序把所有内容刷完，更适合边读边试。
+
+一个比较轻松的循环是：
+
+~~~text
+读一小段
+   ↓
+遇到图、公式或流程 → 动手试一下
+   ↓
+写一句自己的理解 / 问题
+   ↓
+需要时回原教程或原代码
+   ↓
+学完再标记进度
+~~~
+
+这样做的好处是：阅读、实验和自己的理解不会散在很多标签页里。
 
 ## 📖 原教程与资料来源
 
 Try 的学习内容首先指向原始资料，而不是隐藏来源。
 
-最重要的两个入口放在这里：
+最重要的两个入口是：
 
 1. **RethinkFun 深度学习教程**  
    <https://www.rethink.fun/>
@@ -85,12 +104,12 @@ Try 的学习内容首先指向原始资料，而不是隐藏来源。
 2. **RethinkFun / DeepLearning 公开代码**  
    <https://github.com/RethinkFun/DeepLearning>
 
-阅读页中也保留了对应章节、代码和补充资料入口。除此之外，部分解释与设计参考还来自：
+阅读页中保留了对应章节、代码和补充资料入口。部分解释与设计参考还来自：
 
 - [3Blue1Brown · Neural Networks](https://www.3blue1brown.com/topics/neural-networks)
 - [Claude Academy](https://academy.claude.com/zh-CN/courses)
 
-更完整的资料记录见：
+更完整的资料与素材记录：
 
 - [模型研究记录](docs/MODEL-RESEARCH.md)
 - [自然录音许可](docs/NATURE-AUDIO-LICENSES.md)
@@ -98,167 +117,158 @@ Try 的学习内容首先指向原始资料，而不是隐藏来源。
 - [迁移与设计记录](docs/ANALYSIS.md)
 - [更新日志](CHANGELOG.md)
 
-## 📦 静态包：Windows、macOS、Linux 都可以用
+## 💾 笔记和进度保存在哪里？
+
+Try 是纯静态前端，不需要账号、后端或 API key。
+
+笔记和学习进度保存在**当前浏览器的本地存储**中：
+
+- 不会自动上传到 GitHub；
+- 不会跟着静态 ZIP 一起发布；
+- 不会自动同步到另一台设备；
+- 换浏览器、设备或域名时，也不会自动迁移。
+
+如果笔记比较重要，建议定期使用页面里的导出 / 备份功能。
+
+---
+
+<details>
+<summary><strong>📦 想下载静态包、离线预览或自己部署？</strong></summary>
+
+<br/>
 
 每次 GitHub Release 会提供：
 
-```text
+~~~text
 try-<version>-static.zip
 try-<version>-static.zip.sha256
-```
+~~~
 
-这个 ZIP **不是 Windows 安装包，也不是 macOS App**。它是一份已经构建好的静态网站，因此与操作系统无关：
+这个 ZIP **不是 Windows 安装包，也不是 macOS App**，而是一份已经构建好的静态网站。
 
-- Windows 可以下载、解压、部署；
-- macOS 可以下载、解压、部署；
-- Linux 也一样；
-- 不需要 Apple Developer ID、Notarization 或 Windows 代码签名。
+因此：
 
-### 静态包里面是什么
+- Windows、macOS、Linux 都能下载和解压；
+- 不需要 Apple Developer ID、Notarization 或 Windows 代码签名；
+- 可以部署到 GitHub Pages、Cloudflare Pages、Vercel、Netlify、Nginx、Apache 或其他静态托管。
 
-解压后会直接看到可部署的网站文件，例如：
+### 解压后会看到什么
 
-```text
+~~~text
 index.html
 assets/
 fonts/
 icons/
 licenses/
 ...
-```
+~~~
 
-部署时请上传**解压后的全部内容**，不要只上传 `index.html`。
+部署时要上传**解压后的全部内容**，不要只上传 <code>index.html</code>。
 
-### 方式一：直接部署到静态托管
+### Windows 本地预览
 
-可以把解压后的文件上传到任何支持静态网站的平台，例如：
+如果已安装 Python，在解压目录打开 PowerShell：
 
-- GitHub Pages
-- Cloudflare Pages
-- Vercel
-- Netlify
-- 自己的 Nginx / Apache
-- 普通对象存储或静态空间
-
-项目使用相对资源路径，因此既可以部署在域名根目录，也可以放在类似 `/try/` 的子目录。
-
-### 方式二：Windows 本地预览
-
-如果电脑装有 Python，在解压目录打开 PowerShell：
-
-```powershell
+~~~powershell
 py -m http.server 8000
-```
+~~~
 
 然后访问：
 
-```text
+~~~text
 http://localhost:8000
-```
+~~~
 
 校验 ZIP：
 
-```powershell
+~~~powershell
 Get-FileHash .\try-5.2.1-static.zip -Algorithm SHA256
-```
+~~~
 
-### 方式三：macOS / Linux 本地预览
+### macOS / Linux 本地预览
 
 在解压目录打开终端：
 
-```sh
+~~~sh
 python3 -m http.server 8000
-```
+~~~
 
 然后访问：
 
-```text
+~~~text
 http://localhost:8000
-```
+~~~
 
 macOS 校验：
 
-```sh
+~~~sh
 shasum -a 256 try-5.2.1-static.zip
-```
+~~~
 
 Linux 常用：
 
-```sh
+~~~sh
 sha256sum try-5.2.1-static.zip
-```
+~~~
 
-> 不建议直接双击 `index.html`。现代浏览器对 `file://` 下的 ES Modules 和部分资源加载有限制，使用本地 HTTP 服务更可靠。
+> 不建议直接双击 <code>index.html</code>。浏览器对 <code>file://</code> 下的 ES Modules 和部分资源加载有限制，本地 HTTP 服务更可靠。
 
-### 源码包和静态包有什么区别
+### 源码包和静态包的区别
 
-GitHub Release 页面还会自动提供 **Source code (zip / tar.gz)**。那是项目源码，需要 Node.js 安装依赖后再构建。
+GitHub Release 还会自动提供 **Source code (zip / tar.gz)**。
 
-如果你的目标只是**部署网站**，优先下载：
+- 想直接部署网站：下载 <code>try-&lt;version&gt;-static.zip</code>
+- 想改源码：clone 仓库，然后按下面的开发说明运行
 
-```text
-try-<version>-static.zip
-```
+</details>
 
-## 🛠️ 从源码运行
+## 🛠️ 想研究或修改源码？
 
 推荐 Node.js 24；最低要求 Node.js 22.12。
 
-```sh
+~~~sh
 npm ci
 npm run dev
-```
+~~~
 
 开发地址由终端显示，通常为：
 
-```text
+~~~text
 http://127.0.0.1:5173
-```
+~~~
 
 提交或发布前：
 
-```sh
+~~~sh
 npm run check
 npm run build
 npm run preview
-```
+~~~
 
-生产构建输出在 `dist/`。
+生产构建输出在 <code>dist/</code>。
 
-## 🤖 自动部署与发布
+## 🤖 自动部署与 Release
 
-仓库目前有两条 GitHub Actions 流程：
+仓库目前有两条 GitHub Actions：
 
-- `.github/workflows/pages.yml`  
-  对 `main` 执行检查、构建并部署 GitHub Pages。
+- <code>.github/workflows/pages.yml</code>  
+  对 <code>main</code> 执行检查、构建并部署 GitHub Pages。
 
-- `.github/workflows/release.yml`  
-  对发布内容执行检查、构建、静态 ZIP 打包和 SHA-256 生成；版本发布时创建 GitHub Release。
+- <code>.github/workflows/release.yml</code>  
+  对发布内容执行检查、构建、生成静态 ZIP 和 SHA-256；需要发布版本时创建 GitHub Release。
 
-也就是说，Release 里的静态包来自 CI 的正式生产构建，而不是手工压缩开发目录。
-
-## 🔐 本地数据与隐私
-
-Try 是纯静态前端，不需要后端账号，也不需要 API key。
-
-学习进度和笔记存放在当前浏览器的本地存储中。它们：
-
-- 不会自动上传到 GitHub；
-- 不会跟着静态 ZIP 一起发布；
-- 不会自动在不同域名、浏览器或设备间同步。
-
-如果准备更换设备、浏览器或站点域名，建议先导出笔记和学习进度，再到新环境导入。
+Release 中的静态包来自 CI 的生产构建，不是手工压缩开发目录。
 
 ## 🗂️ 项目结构
 
 | 路径 | 内容 |
 | --- | --- |
-| `src/` | React 页面、学习内容、交互逻辑和样式 |
-| `public/` | 字体、图标、自然录音等静态资源 |
-| `tests/` | 内容、数据和交互逻辑检查 |
-| `docs/` | 研究记录、素材来源、许可和迁移说明 |
-| `.github/workflows/pages.yml` | GitHub Pages 自动部署 |
-| `.github/workflows/release.yml` | Release 构建与静态 ZIP 打包 |
+| <code>src/</code> | React 页面、学习内容、交互逻辑和样式 |
+| <code>public/</code> | 字体、图标、自然录音等静态资源 |
+| <code>tests/</code> | 内容、数据和交互逻辑检查 |
+| <code>docs/</code> | 研究记录、素材来源、许可和迁移说明 |
+| <code>.github/workflows/pages.yml</code> | GitHub Pages 自动部署 |
+| <code>.github/workflows/release.yml</code> | Release 构建与静态 ZIP 打包 |
 
 ## ⚖️ 使用与许可说明
 
@@ -270,24 +280,30 @@ RethinkFun 教程、第三方文章、字体、图标、音频、代码依赖等
 
 ---
 
-## English
+## English quick guide
 
-**Try is the bilingual deep-learning reader I use to organize study material, run small interactive experiments, and keep notes.**
+**Try is a bilingual interactive deep-learning reader for learning, experimenting, and taking notes.**
 
-Its main references are the public [RethinkFun deep learning course](https://www.rethink.fun/) and [RethinkFun/DeepLearning](https://github.com/RethinkFun/DeepLearning). It is not an official RethinkFun project and does not replace the original course. I keep links back to the source material while arranging reading, experiments, notes, progress, model references, and a knowledge map in one place.
+Its main references are the public [RethinkFun deep learning course](https://www.rethink.fun/) and [RethinkFun/DeepLearning](https://github.com/RethinkFun/DeepLearning). Try is not an official RethinkFun project and does not replace the original course.
+
+If you are new here:
+
+1. Open the [live site](https://try.do123.eu.org/).
+2. Start with the foundational chapters.
+3. Use the interactive experiments instead of only reading.
+4. Keep short chapter notes when something clicks — or does not.
+5. Mark progress only when you feel you have actually studied a node.
+6. Return to the original course and code whenever you need the full derivation or implementation context.
 
 **Current version:** 5.2.1  
-**Live site:** [try.do123.eu.org](https://try.do123.eu.org/)  
 **Fallback:** [GitHub Pages](https://windyduan.github.io/try/) · **Downloads:** [GitHub Releases](https://github.com/windyduan/try/releases/latest)
 
-The release asset `try-<version>-static.zip` is a platform-independent static website bundle. It can be downloaded and deployed from Windows, macOS or Linux. It is not a Windows executable or a native macOS application, so OS code signing is not required for this distribution format.
+Notes and learning progress stay in browser local storage.
 
 For local development:
 
-```sh
+~~~sh
 npm ci
 npm run check
 npm run build
-```
-
-Notes and learning progress stay in browser local storage. Third-party material keeps its original attribution and licensing requirements.
+~~~
