@@ -20,15 +20,21 @@
   <img alt="Static site" src="https://img.shields.io/badge/STATIC-WEB-369af4?style=flat-square">
 </p>
 
+<p align="center">
+  <a href="https://windyduan.github.io/">个人主页 / Homepage</a>
+  ·
+  <a href="https://github.com/windyduan">GitHub Profile</a>
+</p>
+
 ---
 
 # Try
 
-**Try 是一个面向个人学习的双语互动式深度学习阅读器。**
+**Try 是我用来整理深度学习资料、做交互实验和记学习笔记的双语阅读器。**
 
-它以 [RethinkFun 深度学习教程](https://www.rethink.fun/) 和公开代码仓库 [RethinkFun/DeepLearning](https://github.com/RethinkFun/DeepLearning) 为主要学习来源，在保留原文入口的基础上，把阅读、交互实验、章节关系、个人笔记、模型资料和学习进度重新组织进一个网页应用。
+主要学习来源是 [RethinkFun 深度学习教程](https://www.rethink.fun/) 和公开代码仓库 [RethinkFun/DeepLearning](https://github.com/RethinkFun/DeepLearning)。我保留了原文入口，再把阅读、交互实验、章节关系、个人笔记、模型资料和学习进度整理到同一个网页里。
 
-这个项目不是 RethinkFun 官方站点，也不替代原教程。更准确地说，它是一个**基于公开学习资料整理出的个人学习界面与交互笔记**：遇到需要完整推导、原始代码或上下文的地方，可以随时回到原文继续看。
+它不是 RethinkFun 官方站点，也不想替代原教程。更像是我在学习过程中慢慢搭出来的一层个人界面：需要完整推导、原始代码或上下文时，还是回到原文继续看。
 
 当前版本：**5.2.1**
 
@@ -40,19 +46,19 @@
 - **GitHub Pages 备用入口**：<https://windyduan.github.io/try/>
 - **下载静态包**：[GitHub Releases](https://github.com/windyduan/try/releases/latest)
 
-项目源码就是当前仓库；主站链接更适合放在 GitHub 仓库右侧 **About → Website**，README 这里只保留一次使用入口。
+如果想继续看我做的其他公开项目、开源贡献或之后的论文，可以从 [个人主页](https://windyduan.github.io/) 继续逛。
 
-## 💡 这个项目想解决什么
+## 💡 为什么做它
 
-教程内容很多时，真正困难的往往不是“有没有资料”，而是：
+我不太喜欢“看完一章 → 关掉网页 → 下次又从头找”的学习方式，所以把自己经常需要的几件事放到一起：
 
-- 看完一个概念后，下一步该去哪里；
-- 数学公式和模型结构能不能马上动手试；
-- 不同章节之间到底有什么关系；
-- 自己的理解、问题和进度放在哪里；
-- 学到后面时，能不能回头看到一张逐渐被点亮的知识地图。
+- 看完一个概念后，知道下一步还能去哪里；
+- 遇到公式或模型结构时，最好马上能动手试一下；
+- 不同章节之间的关系能看得见；
+- 自己的理解、问题和进度有地方留下来；
+- 学到后面时，还能回头看到一张慢慢被点亮的知识地图。
 
-Try 把这些事情放在同一个浏览器界面里。它更像一本**可以操作、可以记笔记、可以回看的个人学习书**，而不是一份静态教程镜像。
+所以 Try 最后更像一本**可以操作、可以记笔记、也可以反复翻回来的个人学习书**，而不是教程镜像。
 
 ## ✨ 主要内容
 
@@ -266,9 +272,9 @@ RethinkFun 教程、第三方文章、字体、图标、音频、代码依赖等
 
 ## English
 
-**Try is a personal, bilingual interactive learning reader for deep learning.**
+**Try is the bilingual deep-learning reader I use to organize study material, run small interactive experiments, and keep notes.**
 
-Its main learning references are the public [RethinkFun deep learning course](https://www.rethink.fun/) and [RethinkFun/DeepLearning](https://github.com/RethinkFun/DeepLearning). Try is not an official RethinkFun project and does not replace the original course; it reorganizes study material into an interactive reading interface with experiments, notes, progress tracking, model references and a knowledge map.
+Its main references are the public [RethinkFun deep learning course](https://www.rethink.fun/) and [RethinkFun/DeepLearning](https://github.com/RethinkFun/DeepLearning). It is not an official RethinkFun project and does not replace the original course. I keep links back to the source material while arranging reading, experiments, notes, progress, model references, and a knowledge map in one place.
 
 **Current version:** 5.2.1  
 **Live site:** [try.do123.eu.org](https://try.do123.eu.org/)  
